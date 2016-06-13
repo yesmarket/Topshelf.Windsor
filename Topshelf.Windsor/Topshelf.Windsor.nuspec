@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Topshelf.Windsor</id>
+    <version>1.0.0</version>
+    <authors>Ryan Bartsch</authors>
+    <owners>Yesmarket</owners>
+    <licenseUrl>https://github.com/yesmarket/Topshelf.Windsor/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/yesmarket/Topshelf.Windsor</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Topshelf and Castle.Windsor integration.</description>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5.2">
+        <dependency id="Castle.Core" version="3.3.0" />
+        <dependency id="Castle.Windsor" version="3.3.0" />
+        <dependency id="Topshelf" version="4.0.1" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
